@@ -1,6 +1,6 @@
 context:
   name: "pyedb"
-  version: "0.75.0"
+  version: "0.76.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyedb-${{ version }}.tar.gz
-  sha256: 140cba86a66821698fca44bdc592adaab69dea6bc6667d65251dd04d3aae080c
+  sha256: b50fa50d2af9e195f0586319b5a159e98da8b9a54fda35842cc9ebe82b6c2106
 
 build:
   noarch: python
