@@ -32,6 +32,7 @@ requirements:
     - ${{ "cffi >=1.16" if linux }}
     - toml ==0.10.2
     - xmltodict
+    - typer>=0.20.0
 
 tests:
   - python:
