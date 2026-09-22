@@ -1,6 +1,6 @@
 context:
   name: "pyedb"
-  version: "0.83.0"
+  version: "0.84.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyedb-${{ version }}.tar.gz
-  sha256: 2a3cc27fe36d05d14c6148a78047930946c8a7b274e0ec0e460164596b7eb5f8
+  sha256: 5d95a057c838d578963115423943e02e3544575436a374c6022c3f990d2a7fef
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
     - python ${{ python_min }}.*
   run:
-    - ansys-edb-core >=0.3.1
+    - ansys-edb-core >=0.3.3
     - ansys-pythonnet
     - defusedxml >=0.7
     - numpy >=1.20.0
